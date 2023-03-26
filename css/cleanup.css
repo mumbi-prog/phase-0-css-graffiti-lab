@@ -1,1 +1,21 @@
 /* write your override styles here */
+#wall .tag-1 {
+    display: none;
+}
+
+#tag-3 .slick wicked {
+    display: none;
+    background: blueviolet;
+}
+
+#wall .parent > div {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+}
+
+#wall .parent:last-child #tag-5 {
+    background-color: blue;
+    color: white;
+    display: none;
+}
